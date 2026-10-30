@@ -1,0 +1,39 @@
+{
+  "id": "6qdlu28uwm",
+  "name": {
+    "tr": "Araçlar",
+    "en": "Vehicles",
+    "ar": "السيارات"
+  },
+  "description": {
+    "tr": "Satıştaki ikinci el araçlar; her ilanda yetki belgesi no ve ekspertiz bilgisi.",
+    "en": "Used vehicles for sale; each listing carries an authorisation number and inspection information.",
+    "ar": "سيارات مستعملة للبيع؛ يتضمن كل إعلان رقم التفويض ومعلومات الفحص."
+  },
+  "keyword": {
+    "tr": "araçlar, ikinci el, ilan",
+    "en": "vehicles, used, listings",
+    "ar": "سيارات، مستعملة، إعلانات"
+  },
+  "path": "araclar",
+  "icon": "directions_car",
+  "category": "",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "onll6d"
+    ],
+    "footer": []
+  },
+  "index": 0,
+  "url": "",
+  "text": {},
+  "title": {
+    "tr": "Araçlar",
+    "en": "Vehicles",
+    "ar": "السيارات"
+  },
+  "date": "2026-10-30T21:54:09.292Z",
+  "update": "2026-10-30T22:03:23.182Z"
+}

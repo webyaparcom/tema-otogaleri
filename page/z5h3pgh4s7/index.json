@@ -1,0 +1,39 @@
+{
+  "id": "z5h3pgh4s7",
+  "name": {
+    "tr": "Aracını Sat",
+    "en": "Sell Your Car",
+    "ar": "بع سيارتك"
+  },
+  "description": {
+    "tr": "Randevu gününde aracınız kontrol edilir ve değerleme bilgisi paylaşılır. Talebiniz demo olarak tarayıcınızda oluşturulur.",
+    "en": "On the appointment day your car is inspected and a valuation is shared. Your request is created in your browser as a demo.",
+    "ar": "في يوم الموعد تُفحص سيارتك ويُشارَك التقييم. يُنشأ طلبك كعرض تجريبي في متصفحك."
+  },
+  "keyword": {
+    "tr": "ikinci el araç, oto galeri, ekspertiz",
+    "en": "used cars, auto gallery, inspection",
+    "ar": "سيارات مستعملة، معرض سيارات، فحص"
+  },
+  "path": "aracini-sat",
+  "icon": "sell",
+  "category": "",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "nwrsg0"
+    ],
+    "footer": []
+  },
+  "index": 1,
+  "url": "",
+  "text": {},
+  "title": {
+    "tr": "Aracını Sat",
+    "en": "Sell Your Car",
+    "ar": "بع سيارتك"
+  },
+  "date": "2026-10-30T21:54:09.303Z",
+  "update": "2026-10-30T22:03:23.188Z"
+}

@@ -1,0 +1,41 @@
+{
+  "id": "misyon",
+  "name": {
+    "tr": "Misyon",
+    "en": "Mission",
+    "ar": "المهمة"
+  },
+  "description": {
+    "tr": "Misyonumuz",
+    "en": "Our mission",
+    "ar": "مهمتنا"
+  },
+  "keyword": {
+    "tr": "",
+    "en": "",
+    "ar": ""
+  },
+  "path": "misyon",
+  "icon": "flag",
+  "category": "",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+  },
+  "index": 0,
+  "url": "",
+  "text": {
+    "tr": "<h2>Misyonumuz</h2>\n<p>Misyonumuz, ikinci el araç alıcılarına doğru ve belgeli bilgiyle, baskısız bir satın alma deneyimi sunmaktır.</p>",
+    "en": "<h2>Our mission</h2>\n<p>Our mission is to give used-car buyers an unpressured purchase backed by accurate, documented information.</p>",
+    "ar": "<h2>مهمتنا</h2>\n<p>مهمتنا أن نقدّم لمشتري السيارات المستعملة تجربة شراء دون ضغط، قائمة على معلومات صحيحة وموثّقة.</p>"
+  },
+  "title": {
+    "tr": "Misyon",
+    "en": "Mission",
+    "ar": "المهمة"
+  },
+  "date": "2026-10-30T21:54:08.879Z",
+  "update": "2026-10-30T22:03:23.220Z"
+}

@@ -1,0 +1,39 @@
+{
+  "id": "esa3hg5md7",
+  "name": {
+    "tr": "Galeri",
+    "en": "Gallery",
+    "ar": "المعرض"
+  },
+  "description": {
+    "tr": "Salon, ekspertiz alanı ve teslim noktasından görüntüler.",
+    "en": "Views of the showroom, the inspection bay and the handover point.",
+    "ar": "صور من الصالة ومنطقة الفحص ونقطة التسليم."
+  },
+  "keyword": {
+    "tr": "galeri, fotoğraf",
+    "en": "gallery, photos",
+    "ar": "معرض، صور"
+  },
+  "path": "galeri",
+  "icon": "photo_library",
+  "category": "",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "tu4ufm"
+    ],
+    "footer": []
+  },
+  "index": 4,
+  "url": "",
+  "text": {},
+  "title": {
+    "tr": "Galeri",
+    "en": "Gallery",
+    "ar": "المعرض"
+  },
+  "date": "2026-10-30T21:54:09.309Z",
+  "update": "2026-10-30T22:03:23.191Z"
+}
