@@ -1,0 +1,54 @@
+{
+  "order": false,
+  "user": false,
+  "description": {
+    "tr": "Anadolu Oto Galeri: ikinci el araç ilanları; her ilanda yetki belgesi numarası, kilometre ve ekspertiz bilgisi. (Demo site)",
+    "en": "Anadolu Auto Gallery: used-car listings with an authorisation number, mileage and inspection information on each. (Demo site)",
+    "ar": "معرض الأناضول للسيارات: إعلانات سيارات مستعملة مع رقم التفويض والمسافة المقطوعة ومعلومات الفحص في كل إعلان. (موقع تجريبي)"
+  },
+  "keyword": {
+    "tr": "ikinci el araç, oto galeri, ekspertiz",
+    "en": "used cars, auto gallery, inspection",
+    "ar": "سيارات مستعملة، معرض سيارات، فحص"
+  },
+  "category": "Kurumsal",
+  "name": "Anadolu Oto Galeri",
+  "domain": "otogaleri.webyapar.com",
+  "langs": {
+    "tr": true,
+    "en": true,
+    "ar": true,
+    "de": false,
+    "ru": false,
+    "es": false,
+    "fr": false,
+    "it": false,
+    "ja": false,
+    "zh": false,
+    "ko": false,
+    "pt": false
+  },
+  "logo": "logo.png",
+  "multi": false,
+  "publishMode": "static",
+  "font": {
+    "body": "inter",
+    "heading": "barlow-condensed",
+    "ar": {
+      "body": "ibm-plex-sans-arabic",
+      "heading": "noto-kufi-arabic"
+    }
+  },
+  "colorScheme": "auto",
+  "theme_color": "#C2410C",
+  "seo": {
+    "noindex": true
+  },
+  "cssTokens": {
+    "--mx-radius-sm": "4px",
+    "--mx-radius-md": "6px",
+    "--mx-radius-lg": "8px",
+    "--mx-radius-xl": "11px"
+  },
+  "icon": "icon.png"
+}

@@ -1,0 +1,782 @@
+<!doctype html>
+<html lang="tr" dir="ltr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
+  <title>Anadolu Oto Galeri</title>
+  <meta name="description" content="Anadolu Oto Galeri: ikinci el araç ilanları; her ilanda yetki belgesi numarası, kilometre ve ekspertiz bilgisi. (Demo site)" />
+  <meta name="keywords" content="ikinci el araç, oto galeri, ekspertiz" />
+  <meta name="robots" content="noindex, nofollow" />
+  <link rel="canonical" href="https://otogaleri.webyapar.com/tr/" />
+  <link rel="alternate" hreflang="tr" href="https://otogaleri.webyapar.com/tr/" />
+  <link rel="alternate" hreflang="en" href="https://otogaleri.webyapar.com/en/" />
+  <link rel="alternate" hreflang="ar" href="https://otogaleri.webyapar.com/ar/" />
+  <link rel="alternate" hreflang="x-default" href="https://otogaleri.webyapar.com/tr/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Anadolu Oto Galeri" />
+  <meta property="og:description" content="Anadolu Oto Galeri: ikinci el araç ilanları; her ilanda yetki belgesi numarası, kilometre ve ekspertiz bilgisi. (Demo site)" />
+  <meta property="og:url" content="https://otogaleri.webyapar.com/tr/" />
+  <meta property="og:image" content="https://otogaleri.webyapar.com/img/logo.png" />
+  <meta property="og:image:alt" content="Anadolu Oto Galeri" />
+  <meta property="og:site_name" content="Anadolu Oto Galeri" />
+  <meta property="og:locale" content="tr_TR" />
+  <meta property="og:locale:alternate" content="en_US" />
+  <meta property="og:locale:alternate" content="ar_SA" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Anadolu Oto Galeri" />
+  <meta name="twitter:description" content="Anadolu Oto Galeri: ikinci el araç ilanları; her ilanda yetki belgesi numarası, kilometre ve ekspertiz bilgisi. (Demo site)" />
+  <meta name="twitter:image" content="https://otogaleri.webyapar.com/img/logo.png" />
+
+  <meta name="theme-color" content="#C2410C" />
+  <meta name="mx-api-base" content="none" />
+  <link rel="manifest" href="/manifest.json" />
+  <link rel="preload" href="/src/fonts/inter/inter-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="/src/fonts/inter/inter-latin-500-normal.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="/src/fonts/inter/inter-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="/src/fonts/inter/inter-latin-ext-400-normal.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="/src/fonts/inter/inter-latin-ext-500-normal.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="/src/fonts/inter/inter-latin-ext-700-normal.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="stylesheet" href="/src/fonts/inter.css?v=f084i" />
+  <link rel="stylesheet" href="/src/fonts/barlow-condensed.css?v=f084i" />
+  <link rel="stylesheet" href="/src/fonts/ibm-plex-sans-arabic.css?v=f084i" />
+  <link rel="stylesheet" href="/src/fonts/noto-kufi-arabic.css?v=f084i" />
+  <link rel="stylesheet" href="/src/rubik.css?v=f084i" />
+  <link rel="stylesheet" href="/src/css.css?v=f084i" />
+  <link rel="stylesheet" href="/src/mx-ds.css?v=f084i" />
+  
+  <link rel="stylesheet" href="/src/mx-ui.css?v=f084i" />
+  <link rel="preload" href="/src/material-symbols-outlined.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="stylesheet" href="/src/material-symbols-outlined.css?v=f084i" />
+  
+  <link rel="stylesheet" href="/src/cookie.css?v=f084i" />
+  <link rel="stylesheet" href="/src/swiper-bundle.min.css?v=f084i" />
+  <link rel="shortcut icon" href="/img/icon.png?v=f084i" type="image/png" />
+  <link rel="apple-touch-icon" href="/img/icon.png" />
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://otogaleri.webyapar.com/#website",
+      "url": "https://otogaleri.webyapar.com/",
+      "name": "Anadolu Oto Galeri",
+      "description": "Anadolu Oto Galeri: ikinci el araç ilanları; her ilanda yetki belgesi numarası, kilometre ve ekspertiz bilgisi. (Demo site)",
+      "inLanguage": "tr",
+      "publisher": {
+        "@id": "https://otogaleri.webyapar.com/#organization"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://otogaleri.webyapar.com/#organization",
+      "name": "Anadolu Oto Galeri",
+      "url": "https://otogaleri.webyapar.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://otogaleri.webyapar.com/img/logo.png"
+      },
+      "image": "https://otogaleri.webyapar.com/img/logo.png",
+      "description": "Anadolu Oto Galeri: ikinci el araç ilanları; her ilanda yetki belgesi numarası, kilometre ve ekspertiz bilgisi. (Demo site)"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://otogaleri.webyapar.com/tr/#webpage",
+      "url": "https://otogaleri.webyapar.com/tr/",
+      "name": "Anadolu Oto Galeri",
+      "description": "Anadolu Oto Galeri: ikinci el araç ilanları; her ilanda yetki belgesi numarası, kilometre ve ekspertiz bilgisi. (Demo site)",
+      "inLanguage": "tr",
+      "isPartOf": {
+        "@id": "https://otogaleri.webyapar.com/#website"
+      },
+      "about": {
+        "@id": "https://otogaleri.webyapar.com/#organization"
+      },
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "url": "https://otogaleri.webyapar.com/img/logo.png"
+      }
+    }
+  ]
+}
+</script>
+  
+<link rel="stylesheet" href="style.css?v=f084i">
+</head>
+
+<body>
+  <a class="mx-skip-link" href="#content">İçeriğe atla</a>
+  <script>
+    (function () {
+      window.user = window.user || { id: null, email: null, name: null, isLoggedIn: false, loginMethod: null };
+      var emptySnapshot = { empty: true, forEach: function () {} };
+      var emptyDoc = { exists: false, data: function () { return null; } };
+      if (typeof window.dataAddWeb !== "function") window.dataAddWeb = function () { return Promise.resolve(); };
+      if (typeof window.dataDeleteWeb !== "function") window.dataDeleteWeb = function () { return Promise.resolve(); };
+      if (typeof window.dataUpdateWeb !== "function") window.dataUpdateWeb = function () { return Promise.resolve(); };
+      if (typeof window.dataGetWeb !== "function") window.dataGetWeb = function () { return Promise.resolve(emptyDoc); };
+      if (typeof window.dataListWeb !== "function") window.dataListWeb = function () { return Promise.resolve(emptySnapshot); };
+      if (typeof window.authStateListenerWeb !== "function") {
+        window.authStateListenerWeb = function (cb) {
+          if (typeof cb === "function") setTimeout(function () { cb(null); }, 0);
+        };
+      }
+    })();
+  </script>
+  <div id="header"><div class="h0000-db" id="db-k9db01" role="region" aria-label="Demo site uyarısı" data-tone="info" style="--db-bg:var(--mx-site-text, #1b1b1b);--db-fg:var(--mx-site-bg, #ffffff)">
+  <span class="material-symbols-outlined h0000-db-icon" aria-hidden="true">info</span>
+  <p class="h0000-db-text">Bu bir demo sitedir — içerik kurgusaldır, ödeme alınmaz</p>
+  <a class="h0000-db-cta" href="https://webyapar.com/temalar" target="_blank" rel="noopener noreferrer">
+    <span>Bu temayı iste</span><span class="mx-visually-hidden"> (yeni sekmede açılır)</span>
+    <span class="material-symbols-outlined mx-flip h0000-db-arrow" aria-hidden="true">arrow_forward</span>
+  </a>
+</div>
+
+<script>
+  
+  (function () {
+    var kok = document.getElementById("db-k9db01");
+    if (!kok) {
+      return;
+    }
+    var itilenler = [];
+    var gorulen = [];
+
+    function ustaTasi() {
+      var govde = document.body;
+      if (!govde || kok.parentNode === govde) {
+        return;
+      }
+      var ilk = document.getElementById("header");
+      if (ilk && ilk.parentNode === govde) {
+        govde.insertBefore(kok, ilk);
+      } else {
+        govde.insertBefore(kok, govde.firstChild);
+      }
+    }
+
+    function adayMi(el) {
+      if (el === kok || kok.contains(el) || el.nodeType !== 1) {
+        return false;
+      }
+      var cs = window.getComputedStyle(el);
+      if ((cs.position !== "fixed" && cs.position !== "sticky") || cs.display === "none") {
+        return false;
+      }
+      
+      return parseFloat(cs.top) === 0 && el.offsetHeight > 0 && el.offsetHeight <= 200;
+    }
+
+    function it() {
+      var h = kok.offsetHeight;
+      document.documentElement.style.setProperty("--mx-demo-bandi-h", h + "px");
+      var liste = document.querySelectorAll("#header *, body > *");
+      for (var i = 0; i < liste.length; i++) {
+        var el = liste[i];
+        if (gorulen.indexOf(el) !== -1) {
+          continue;
+        }
+        if (adayMi(el)) {
+          gorulen.push(el);
+          itilenler.push(el);
+        }
+      }
+      for (var j = 0; j < itilenler.length; j++) {
+        itilenler[j].style.top = h + "px";
+      }
+    }
+
+    ustaTasi();
+    it();
+    window.addEventListener("load", function () {
+      ustaTasi();
+      it();
+      setTimeout(it, 400);
+      setTimeout(it, 1500);
+    });
+    window.addEventListener("resize", it);
+    if (window.ResizeObserver) {
+      new window.ResizeObserver(it).observe(kok);
+    }
+  })();
+</script>
+<header class="h0001" role="banner">
+  <div class="h0001title" role="region" aria-label="Dil Seçici">
+    <div class="h0001titlebody">
+      <nav class="h0001titlebodylang" aria-label="Dil Seçici">
+        <ul role="list">
+          <li role="none"><a href="/tr/" hreflang="tr" aria-current="true" title="true" aria-label="Dil Seçici: tr" lang="tr">tr</a></li><li role="none"><a href="/en/" hreflang="en" title="true" aria-label="Dil Seçici: en" lang="en">en</a></li><li role="none"><a href="/ar/" hreflang="ar" title="true" aria-label="Dil Seçici: ar" lang="ar">ar</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+  <div class="h0001Children">
+    <div class="h0001body">
+      <a href="/tr/" aria-label="Anasayfa - Anadolu Oto Galeri" title="Anasayfa - Anadolu Oto Galeri">
+        <img src="/img/logo.png?v=in452" class="h0001bodylogo" alt="Anadolu Oto Galeri Logo" loading="lazy" />
+      </a>
+    </div>
+    <button class="h0001menumobil" type="button" aria-label="Menüyü Aç/Kapat" aria-expanded="false" aria-controls="h0001menulist">
+      <span class="material-symbols-outlined" aria-hidden="true">menu</span>
+    </button>
+    <div class="h0001menuoverlay" id="h0001menuoverlay" aria-hidden="true"></div>
+    <nav class="h0001menulist" id="h0001menulist" role="navigation" aria-label="Navigasyon">
+      <button class="h0001menuclose" type="button" aria-label="Menüyü Kapat" aria-controls="h0001menulist">
+        <span class="material-symbols-outlined" aria-hidden="true">close</span>
+      </button>
+      <ul role="menubar">
+        <a href="/tr/" class="h0001menuitem" role="menuitem" title="Anasayfa - " aria-label="Anasayfa">Anasayfa</a><a href="/tr/araclar/" class="h0001menuitem" role="menuitem" title="Araçlar" aria-label="Araçlar">Araçlar</a><a href="/tr/aracini-sat/" class="h0001menuitem" role="menuitem" title="Aracını Sat" aria-label="Aracını Sat">Aracını Sat</a><a href="/tr/kredi-takas/" class="h0001menuitem" role="menuitem" title="Kredi ve Takas" aria-label="Kredi ve Takas">Kredi ve Takas</a><a href="/tr/satis-kosullari/" class="h0001menuitem" role="menuitem" title="Satış Koşulları" aria-label="Satış Koşulları">Satış Koşulları</a><a href="/tr/galeri/" class="h0001menuitem" role="menuitem" title="Galeri" aria-label="Galeri">Galeri</a><a href="/tr/hakkimizda/" class="h0001menuitem" role="menuitem" title="Hakkımızda" aria-label="Hakkımızda">Hakkımızda</a><a href="/tr/iletisim/" class="h0001menuitem" role="menuitem" title="İletişim" aria-label="İletişim">İletişim</a>
+      </ul>
+      <div class="h0001menulang" aria-label="Dil Seçici">
+        <ul role="list">
+          <li role="none"><a href="/tr/" hreflang="tr" aria-current="true" title="true" aria-label="Dil Seçici: tr" lang="tr">tr</a></li><li role="none"><a href="/en/" hreflang="en" title="true" aria-label="Dil Seçici: en" lang="en">en</a></li><li role="none"><a href="/ar/" hreflang="ar" title="true" aria-label="Dil Seçici: ar" lang="ar">ar</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<script>
+  setTimeout(function() {
+    var menuButton = document.querySelector(".h0001menumobil");
+    var menu = document.querySelector(".h0001menulist");
+    var overlay = document.querySelector(".h0001menuoverlay");
+    var closeButton = document.querySelector(".h0001menuclose");
+    function openMenu() {
+      if (menu && overlay) {
+        menu.classList.add("active");
+        overlay.classList.add("active");
+        overlay.setAttribute("aria-hidden", "false");
+        if (menuButton) {
+          menuButton.setAttribute("aria-expanded", "true");
+        }
+        document.body.style.overflow = "hidden";
+      }
+    }
+    
+    function closeMenu() {
+      if (menu && overlay) {
+        menu.classList.remove("active");
+        overlay.classList.remove("active");
+        overlay.setAttribute("aria-hidden", "true");
+        if (menuButton) {
+          menuButton.setAttribute("aria-expanded", "false");
+        }
+        document.body.style.overflow = "";
+        if (menuButton) {
+          menuButton.focus();
+        }
+      }
+    }
+    
+    if (menuButton && menu && overlay) {
+      menuButton.addEventListener("click", function () {
+        var isExpanded = menuButton.getAttribute("aria-expanded") === "true";
+        if (isExpanded) {
+          closeMenu();
+        } else {
+          openMenu();
+        }
+      });
+      if (closeButton) {
+        closeButton.addEventListener("click", function () {
+          closeMenu();
+        });
+      }
+      overlay.addEventListener("click", function () {
+        closeMenu();
+      });
+      menuButton.addEventListener("keydown", function (e) {
+        if (e.key === "Enter" || e.key === " ") {
+          e.preventDefault();
+          var isExpanded = menuButton.getAttribute("aria-expanded") === "true";
+          if (isExpanded) {
+            closeMenu();
+          } else {
+            openMenu();
+          }
+        }
+      });
+      document.addEventListener("keydown", function (e) {
+        if (e.key === "Escape" && menuButton.getAttribute("aria-expanded") === "true") {
+          closeMenu();
+        }
+      });
+    }
+  }, 100);
+</script>
+</div>
+  <div id="content"><section class="b0000-hero">
+  <div class="b0000-hero-bg"></div>
+  <div class="b0000-hero-overlay"></div>
+  
+  <div class="b0000-hero-container">
+    <div class="b0000-hero-content">
+      <div class="b0000-hero-badge">İkinci el araç · Gaziantep</div>
+      <h1 class="b0000-hero-title">Km ve hasar bilgisi açık, ekspertizli ikinci el araçlar</h1>
+      <p class="b0000-hero-desc">Anadolu Oto Galeri, kurgusal bir demo galeridir. Her ilanda yetki belgesi numarası, kilometre ve ekspertiz durumu açıkça yazılır.</p>
+      
+      <div class="b0000-hero-actions">
+        <a href="araclar" class="b0000-hero-btn b0000-hero-btn-primary">Araçları gör <span class="material-symbols-outlined">arrow_forward</span></a><a href="aracini-sat" class="b0000-hero-btn b0000-hero-btn-secondary">Aracını sat</a>
+      </div>
+      
+      <div class="b0000-hero-stats">
+        
+      </div>
+    </div>
+    
+    <div class="b0000-hero-visual">
+      <div class="b0000-hero-visual-inner">
+        <div class="b0000-hero-visual-shape b0000-hero-visual-shape-1"></div>
+        <div class="b0000-hero-visual-shape b0000-hero-visual-shape-2"></div>
+        <div class="b0000-hero-visual-shape b0000-hero-visual-shape-3"></div>
+        <img src="/img/otogaleri-hero-galeri.webp" alt="Aydınlık galeri salonunda sıralı araçlar" class="b0000-hero-image" loading="eager" fetchpriority="high" decoding="async" />
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="b0001-values">
+  <div class="b0001-values-container">
+    <div class="b0001-values-header">
+      <div class="b0001-values-badge">Hizmetler</div>
+      <h2 class="b0001-values-title">Satın almayı kolaylaştıran hizmetler</h2>
+      <p class="b0001-values-desc">Takas, kredi yönlendirme ve ekspertiz süreçleri; koşullar kişiye ve araca göre değişir.</p>
+    </div>
+    <div class="b0001-values-grid">
+      <div class="b0001-values-card" style="animation-delay:0s"><div class="b0001-values-icon" aria-hidden="true"><span class="material-symbols-outlined">swap_horiz</span></div><h3 class="b0001-values-card-title">Takas</h3><p class="b0001-values-card-text">Mevcut aracınız değerlendirilir, fark üzerinden işlem yapılır.</p></div><div class="b0001-values-card" style="animation-delay:0.08s"><div class="b0001-values-icon" aria-hidden="true"><span class="material-symbols-outlined">account_balance</span></div><h3 class="b0001-values-card-title">Kredi yönlendirme</h3><p class="b0001-values-card-text">Anlaşmalı finans kuruluşlarına başvuru yönlendirmesi; onay kuruma aittir.</p></div><div class="b0001-values-card" style="animation-delay:0.16s"><div class="b0001-values-icon" aria-hidden="true"><span class="material-symbols-outlined">fact_check</span></div><h3 class="b0001-values-card-title">Ekspertiz raporu</h3><p class="b0001-values-card-text">Satıştan önce bağımsız ekspertiz raporu alıcıyla paylaşılır.</p></div><div class="b0001-values-card" style="animation-delay:0.24s"><div class="b0001-values-icon" aria-hidden="true"><span class="material-symbols-outlined">description</span></div><h3 class="b0001-values-card-title">Tramer ve belge kontrolü</h3><p class="b0001-values-card-text">Hasar kaydı ve ruhsat bilgileri satıştan önce birlikte kontrol edilir.</p></div>
+    </div>
+  </div>
+</section>
+
+
+<section class="b0002-ilan" id="b0002-ilan-75f51l" aria-labelledby="b0002-ilan-75f51l-h">
+  <div class="b0002-ilan-wrap">
+    <header class="b0002-ilan-head">
+      <h2 class="b0002-ilan-h" id="b0002-ilan-75f51l-h">Öne çıkan araçlar</h2>
+      <p class="b0002-ilan-sub">Bu hafta seçtiğimiz araçlar. Tümü kurgusaldır.</p>
+    </header>
+
+    <div class="b0002-ilan-bar">
+      <div class="b0002-ilan-tabs" role="group" aria-label="Durum">
+        <button type="button" class="b0002-ilan-tab is-on" data-ilan-deal="" aria-pressed="true">Tümü<span class="b0002-ilan-tabn" data-ilan-count="deal:"></span></button>
+        <button type="button" class="b0002-ilan-tab" data-ilan-deal="sale" aria-pressed="false">Satılık<span class="b0002-ilan-tabn" data-ilan-count="deal:sale"></span></button>
+        <button type="button" class="b0002-ilan-tab" data-ilan-deal="rent" aria-pressed="false">Rezerve<span class="b0002-ilan-tabn" data-ilan-count="deal:rent"></span></button>
+      </div>
+      <div class="b0002-ilan-tools">
+        <label class="b0002-ilan-search">
+          <span class="b0002-ilan-vh">Araç ara</span>
+          <span class="material-symbols-outlined" aria-hidden="true">search</span>
+          <input type="search" data-ilan-q placeholder="İlan başlığı…" autocomplete="off" />
+        </label>
+        <label class="b0002-ilan-sort">
+          <span class="b0002-ilan-sortl">Sırala</span>
+          <select class="b0002-ilan-select" data-ilan-sort><option value="date">En yeni</option><option value="price">Fiyat: düşükten yükseğe</option><option value="priceDesc">Fiyat: yüksekten düşüğe</option><option value="m2">Km: çoktan aza</option><option value="m2Asc">Km: azdan çoğa</option></select>
+        </label>
+        <button type="button" class="b0002-ilan-toggle" data-ilan-toggle aria-expanded="false" aria-controls="b0002-ilan-75f51l-panel">
+          <span class="material-symbols-outlined" aria-hidden="true">tune</span>
+          <span>Filtreler</span>
+          <span class="b0002-ilan-badge" data-ilan-active hidden></span>
+        </button>
+      </div>
+    </div>
+
+    <div class="b0002-ilan-layout">
+      <aside class="b0002-ilan-panel" id="b0002-ilan-75f51l-panel" aria-label="Filtreler">
+        <div class="b0002-ilan-panelhead">
+          <h3 class="b0002-ilan-ph3">Filtreler</h3>
+          <button type="button" class="b0002-ilan-reset" data-ilan-reset>Filtreleri temizle</button>
+        </div>
+        
+        
+        
+        
+        
+      </aside>
+
+      <div class="b0002-ilan-main">
+        <p class="b0002-ilan-status" role="status" aria-live="polite" data-ilan-status></p>
+        <p class="b0002-ilan-demo"><span class="material-symbols-outlined" aria-hidden="true">info</span><span>Bu sayfadaki araçlar kurgusaldır. Kilometre ve hasar durumu gerçek satışta ekspertiz raporuyla belgelenir; yetki belgesi numaraları örnektir (DEMO).</span></p>
+        <div class="b0002-ilan-list" data-ilan-list><article class="b0002-ilan-card" data-id="arac-001" data-deal="sale"><div class="b0002-ilan-media"><img src="/img/otogaleri-arac-1.webp" alt="2021 model 1.5 dizel sedan, gümüş" loading="lazy" decoding="async" /><span class="b0002-ilan-badges"><span class="b0002-ilan-deal b0002-ilan-deal-sale">Satılık</span><span class="b0002-ilan-flag">Yeni</span></span></div><div class="b0002-ilan-body"><p class="b0002-ilan-price"><bdi dir="ltr">985.000 ₺</bdi></p><h3 class="b0002-ilan-title">2021 model 1.5 dizel sedan, gümüş</h3><p class="b0002-ilan-loc"><span class="material-symbols-outlined" aria-hidden="true">location_on</span>Şahinbey, Gaziantep</p><ul class="b0002-ilan-meta"><li><span class="material-symbols-outlined" aria-hidden="true">home</span>Sedan</li><li><span class="material-symbols-outlined" aria-hidden="true">bed</span><bdi dir="ltr">Dizel</bdi><span class="b0002-ilan-vh"> Yakıt</span></li><li><span class="material-symbols-outlined" aria-hidden="true">square_foot</span><bdi dir="ltr">68.000 km</bdi></li></ul><p class="b0002-ilan-foot"><span class="b0002-ilan-permit"><span class="material-symbols-outlined" aria-hidden="true">verified_user</span><span>Yetki belgesi no: <bdi dir="ltr" class="b0002-ilan-permitno">DEMO-27-0001</bdi></span></span><span class="b0002-ilan-date">İlan tarihi: 28 Ekim 2026</span></p></div></article><article class="b0002-ilan-card" data-id="arac-002" data-deal="sale"><div class="b0002-ilan-media"><img src="/img/otogaleri-arac-2.webp" alt="2020 model 1.0 benzinli hatchback, beyaz" loading="lazy" decoding="async" /><span class="b0002-ilan-badges"><span class="b0002-ilan-deal b0002-ilan-deal-sale">Satılık</span></span></div><div class="b0002-ilan-body"><p class="b0002-ilan-price"><bdi dir="ltr">640.000 ₺</bdi></p><h3 class="b0002-ilan-title">2020 model 1.0 benzinli hatchback, beyaz</h3><p class="b0002-ilan-loc"><span class="material-symbols-outlined" aria-hidden="true">location_on</span>Şahinbey, Gaziantep</p><ul class="b0002-ilan-meta"><li><span class="material-symbols-outlined" aria-hidden="true">home</span>Hatchback</li><li><span class="material-symbols-outlined" aria-hidden="true">bed</span><bdi dir="ltr">Benzin</bdi><span class="b0002-ilan-vh"> Yakıt</span></li><li><span class="material-symbols-outlined" aria-hidden="true">square_foot</span><bdi dir="ltr">54.000 km</bdi></li></ul><p class="b0002-ilan-foot"><span class="b0002-ilan-permit"><span class="material-symbols-outlined" aria-hidden="true">verified_user</span><span>Yetki belgesi no: <bdi dir="ltr" class="b0002-ilan-permitno">DEMO-27-0002</bdi></span></span><span class="b0002-ilan-date">İlan tarihi: 26 Ekim 2026</span></p></div></article><article class="b0002-ilan-card" data-id="arac-003" data-deal="sale"><div class="b0002-ilan-media"><img src="/img/otogaleri-arac-3.webp" alt="2022 model hibrit SUV, antrasit" loading="lazy" decoding="async" /><span class="b0002-ilan-badges"><span class="b0002-ilan-deal b0002-ilan-deal-sale">Satılık</span></span></div><div class="b0002-ilan-body"><p class="b0002-ilan-price"><bdi dir="ltr">1.720.000 ₺</bdi></p><h3 class="b0002-ilan-title">2022 model hibrit SUV, antrasit</h3><p class="b0002-ilan-loc"><span class="material-symbols-outlined" aria-hidden="true">location_on</span>Şahinbey, Gaziantep</p><ul class="b0002-ilan-meta"><li><span class="material-symbols-outlined" aria-hidden="true">home</span>SUV</li><li><span class="material-symbols-outlined" aria-hidden="true">bed</span><bdi dir="ltr">Hibrit</bdi><span class="b0002-ilan-vh"> Yakıt</span></li><li><span class="material-symbols-outlined" aria-hidden="true">square_foot</span><bdi dir="ltr">41.000 km</bdi></li></ul><p class="b0002-ilan-foot"><span class="b0002-ilan-permit"><span class="material-symbols-outlined" aria-hidden="true">verified_user</span><span>Yetki belgesi no: <bdi dir="ltr" class="b0002-ilan-permitno">DEMO-27-0003</bdi></span></span><span class="b0002-ilan-date">İlan tarihi: 25 Ekim 2026</span></p></div></article></div>
+        <div class="b0002-ilan-empty" data-ilan-empty hidden>
+          <span class="material-symbols-outlined" aria-hidden="true">search_off</span>
+          <h3 class="b0002-ilan-eh">Sonuç bulunamadı</h3>
+          <p>Filtreleri gevşetmeyi veya temizlemeyi deneyin.</p>
+          <button type="button" class="b0002-ilan-btn" data-ilan-reset>Filtreleri temizle</button>
+        </div>
+        <nav class="b0002-ilan-pages" aria-label="Sayfalama" data-ilan-pages hidden></nav>
+      </div>
+    </div>
+    <script type="application/json" id="b0002-ilan-75f51l-veri">{"cfg":{"lang":"tr","pageSize":3,"sort":"date","url":false,"resultCount":{"tr":{"one":"{n} araç bulundu","other":"{n} araç bulundu"},"en":{"one":"{n} vehicle found","other":"{n} vehicles found"},"ar":{"zero":"لم يتم العثور على سيارات","one":"تم العثور على سيارة واحدة","two":"تم العثور على سيارتين","few":"تم العثور على {n} سيارات","many":"تم العثور على {n} سيارة","other":"تم العثور على {n} سيارة"}},"prevPage":"Önceki sayfa","nextPage":"Sonraki sayfa","pageN":"Sayfa {n}"},"items":[{"id":"arac-001","deal":"sale","type":"sedan","rooms":"Dizel","m2":68000,"price":985000,"dk":"sahinbey","date":"2026-10-28","title":{"tr":"2021 model 1.5 dizel sedan, gümüş","en":"2021 model 1.5 diesel sedan, silver","ar":"سيدان ديزل 1.5 موديل 2021 فضية"},"district":{"tr":"Şahinbey","en":"Sahinbey","ar":"شاهين بي"},"city":{"tr":"Gaziantep","en":"Gaziantep","ar":"غازي عنتاب"},"permit":"DEMO-27-0001"},{"id":"arac-002","deal":"sale","type":"hatchback","rooms":"Benzin","m2":54000,"price":640000,"dk":"sahinbey","date":"2026-10-26","title":{"tr":"2020 model 1.0 benzinli hatchback, beyaz","en":"2020 model 1.0 petrol hatchback, white","ar":"هاتشباك بنزين 1.0 موديل 2020 بيضاء"},"district":{"tr":"Şahinbey","en":"Sahinbey","ar":"شاهين بي"},"city":{"tr":"Gaziantep","en":"Gaziantep","ar":"غازي عنتاب"},"permit":"DEMO-27-0002"},{"id":"arac-003","deal":"sale","type":"suv","rooms":"Hibrit","m2":41000,"price":1720000,"dk":"sahinbey","date":"2026-10-25","title":{"tr":"2022 model hibrit SUV, antrasit","en":"2022 model hybrid SUV, anthracite","ar":"SUV هجينة موديل 2022 رمادية داكنة"},"district":{"tr":"Şahinbey","en":"Sahinbey","ar":"شاهين بي"},"city":{"tr":"Gaziantep","en":"Gaziantep","ar":"غازي عنتاب"},"permit":"DEMO-27-0003"}]}</script>
+  </div>
+</section>
+<noscript><style>.b0002-ilan-card[hidden]{display:flex}.b0002-ilan-toggle{display:none}.b0002-ilan-panel{display:none}</style></noscript>
+
+
+
+<script>
+(function () {
+  var kok = document.getElementById("b0002-ilan-75f51l");
+  var veriEl = document.getElementById("b0002-ilan-75f51l-veri");
+  if (!kok || !veriEl) { return; }
+  var veri;
+  try { veri = JSON.parse(veriEl.textContent); } catch (e) { return; }
+  var cfg = veri.cfg || {};
+
+  function hazir(fn) {
+    if (window.mxLoad) { fn(); }
+    else if (document.readyState === "complete") { setTimeout(fn, 50); }
+    else { window.addEventListener("load", fn); }
+  }
+
+  function q(sel, ctx) { return (ctx || kok).querySelector(sel); }
+  function qa(sel, ctx) { return (ctx || kok).querySelectorAll(sel); }
+  function dizi(nl) { var o = []; for (var i = 0; i < nl.length; i++) { o.push(nl[i]); } return o; }
+
+  function basla() {
+    var MxF = window.MxFiltre;
+    if (!MxF) { return; }
+    var liste = q("[data-ilan-list]");
+    var bos = q("[data-ilan-empty]");
+    var durumEl = q("[data-ilan-status]");
+    var sayfaNav = q("[data-ilan-pages]");
+    var araEl = q("[data-ilan-q]");
+    var sirEl = q("[data-ilan-sort]");
+    var toggleEl = q("[data-ilan-toggle]");
+    var panel = q("[data-ilan-toggle]") ? document.getElementById(q("[data-ilan-toggle]").getAttribute("aria-controls")) : null;
+    var rozet = q("[data-ilan-active]");
+    var kartlar = {};
+    dizi(qa("[data-id]", liste)).forEach(function (el) { kartlar[el.getAttribute("data-id")] = el; });
+    var sonSayfa = 0;
+    var kullaniciSayfa = false;
+
+    var f = MxF.olustur({
+      items: veri.items || [],
+      arama: { alanlar: ["title", "district", "city", "permit"] },
+      facets: {
+        deal: { tip: "tek" },
+        type: { tip: "coklu" },
+        rooms: { tip: "coklu" },
+        m2: { tip: "aralik" },
+        price: { tip: "aralik" },
+        district: { tip: "tek", alan: "dk" }
+      },
+      siralama: {
+        date: { alan: "date", yon: -1, tip: "metin" },
+        price: { alan: "price", yon: 1 },
+        priceDesc: { alan: "price", yon: -1 },
+        m2: { alan: "m2", yon: -1 },
+        m2Asc: { alan: "m2", yon: 1 }
+      },
+      varsayilanSiralama: cfg.sort || "date",
+      sayfaBoyutu: cfg.pageSize || 9,
+      url: cfg.url !== false,
+      dil: cfg.lang || "tr"
+    });
+
+    
+    function topla(ad) {
+      var r = [];
+      dizi(qa('input[data-ilan-facet="' + ad + '"]')).forEach(function (c) { if (c.checked) { r.push(c.value); } });
+      return r;
+    }
+    function aralikOku(ad) {
+      var ins = qa('[data-ilan-range="' + ad + '"]');
+      var a = ins[0].value;
+      var b = ins[1].value;
+      if (a === "" && b === "") { return ""; }
+      return [a === "" ? null : Number(a), b === "" ? null : Number(b)];
+    }
+    var aralikZaman = null;
+    function aralikUygula(ad) {
+      if (aralikZaman) { clearTimeout(aralikZaman); }
+      aralikZaman = setTimeout(function () { var o = {}; o[ad] = aralikOku(ad); f.ayarla(o); }, 300);
+    }
+
+    kok.addEventListener("click", function (e) {
+      var t = e.target;
+      var el = t.closest ? t.closest("button") : null;
+      if (!el || !kok.contains(el)) { return; }
+      if (el.hasAttribute("data-ilan-deal")) {
+        f.ayarla({ deal: el.getAttribute("data-ilan-deal") });
+      } else if (el.hasAttribute("data-ilan-reset")) {
+        f.sifirla();
+        if (araEl) { araEl.value = ""; }
+      } else if (el.hasAttribute("data-ilan-toggle")) {
+        var acik = panel && panel.classList.toggle("is-open");
+        el.setAttribute("aria-expanded", acik ? "true" : "false");
+      } else if (el.hasAttribute("data-ilan-page")) {
+        kullaniciSayfa = true;
+        f.sayfaGit(Number(el.getAttribute("data-ilan-page")));
+      }
+    });
+    kok.addEventListener("change", function (e) {
+      var t = e.target;
+      if (t.hasAttribute("data-ilan-sort")) {
+        f.sirala(t.value);
+      } else if (t.getAttribute("data-ilan-facet") === "district") {
+        f.ayarla({ district: t.value });
+      } else if (t.getAttribute("data-ilan-facet")) {
+        var ad = t.getAttribute("data-ilan-facet");
+        var o = {};
+        o[ad] = topla(ad);
+        f.ayarla(o);
+      } else if (t.getAttribute("data-ilan-range")) {
+        aralikUygula(t.getAttribute("data-ilan-range"));
+      }
+    });
+    kok.addEventListener("input", function (e) {
+      var t = e.target;
+      if (t.getAttribute && t.getAttribute("data-ilan-range")) { aralikUygula(t.getAttribute("data-ilan-range")); }
+    });
+    if (araEl) { MxF.aramaBagla(araEl, f, 200); }
+
+    
+    function sayfaDugmesi(etiket, sayfa, ozellik) {
+      var b = document.createElement("button");
+      b.type = "button";
+      b.className = "b0002-ilan-pg";
+      b.setAttribute("data-ilan-page", String(sayfa));
+      if (ozellik.aria) { b.setAttribute("aria-label", ozellik.aria); }
+      if (ozellik.simge) {
+        var ic = document.createElement("span");
+        ic.className = "material-symbols-outlined mx-flip";
+        ic.setAttribute("aria-hidden", "true");
+        ic.textContent = ozellik.simge;
+        b.appendChild(ic);
+      } else {
+        b.textContent = etiket;
+      }
+      if (ozellik.gecerli) { b.setAttribute("aria-current", "page"); }
+      if (ozellik.pasif) { b.disabled = true; }
+      return b;
+    }
+    function sayfalariCiz(s) {
+      sayfaNav.innerHTML = "";
+      if (s.sayfaSayisi <= 1) { sayfaNav.hidden = true; return; }
+      sayfaNav.hidden = false;
+      sayfaNav.appendChild(sayfaDugmesi("", s.sayfa - 1, { simge: "chevron_left", aria: cfg.prevPage, pasif: s.sayfa <= 1 }));
+      var son = 0;
+      for (var n = 1; n <= s.sayfaSayisi; n++) {
+        var goster = n === 1 || n === s.sayfaSayisi || Math.abs(n - s.sayfa) <= 1;
+        if (!goster) { continue; }
+        if (son && n - son > 1) {
+          var g = document.createElement("span");
+          g.className = "b0002-ilan-gap";
+          g.setAttribute("aria-hidden", "true");
+          g.textContent = "…";
+          sayfaNav.appendChild(g);
+        }
+        sayfaNav.appendChild(sayfaDugmesi(String(n), n, { aria: String(cfg.pageN || "").replace("{n}", String(n)), gecerli: n === s.sayfa }));
+        son = n;
+      }
+      sayfaNav.appendChild(sayfaDugmesi("", s.sayfa + 1, { simge: "chevron_right", aria: cfg.nextPage, pasif: s.sayfa >= s.sayfaSayisi }));
+    }
+
+    function guncelle(s) {
+      var d = s.durum;
+      var i;
+      
+      dizi(qa("[data-ilan-deal]")).forEach(function (b) {
+        var acik = (d.facet.deal || "") === b.getAttribute("data-ilan-deal");
+        b.classList.toggle("is-on", acik);
+        b.setAttribute("aria-pressed", acik ? "true" : "false");
+      });
+      
+      ["type", "rooms"].forEach(function (ad) {
+        var secili = d.facet[ad] || [];
+        dizi(qa('input[data-ilan-facet="' + ad + '"]')).forEach(function (c) { c.checked = secili.indexOf(c.value) > -1; });
+      });
+      var sem = q('select[data-ilan-facet="district"]');
+      if (sem) { sem.value = d.facet.district || ""; }
+      ["m2", "price"].forEach(function (ad) {
+        var ins = qa('[data-ilan-range="' + ad + '"]');
+        var r = d.facet[ad];
+        for (var k = 0; k < ins.length; k++) {
+          if (document.activeElement === ins[k]) { continue; }
+          ins[k].value = r && r[k] !== null && r[k] !== undefined ? r[k] : "";
+        }
+      });
+      if (sirEl) { sirEl.value = d.sirala; }
+      if (araEl && document.activeElement !== araEl) { araEl.value = d.q || ""; }
+      
+      var onbellek = {};
+      dizi(qa("[data-ilan-count]")).forEach(function (sp) {
+        var parca = sp.getAttribute("data-ilan-count").split(":");
+        var ad = parca[0];
+        var anahtar = parca[1];
+        if (!onbellek[ad]) { onbellek[ad] = f.sayim(ad); }
+        var n = 0;
+        if (anahtar === "") { for (var kk in onbellek[ad]) { if (Object.prototype.hasOwnProperty.call(onbellek[ad], kk)) { n += onbellek[ad][kk]; } } }
+        else { n = onbellek[ad][anahtar] || 0; }
+        sp.textContent = String(n);
+        var opt = sp.closest ? sp.closest(".b0002-ilan-opt") : null;
+        if (opt) { opt.classList.toggle("is-zero", n === 0); }
+      });
+      
+      for (var id in kartlar) { if (Object.prototype.hasOwnProperty.call(kartlar, id)) { kartlar[id].hidden = true; } }
+      for (i = 0; i < s.liste.length; i++) {
+        var el = kartlar[s.liste[i].id];
+        if (el) { el.hidden = false; liste.appendChild(el); }
+      }
+      liste.hidden = s.toplam === 0;
+      bos.hidden = s.toplam !== 0;
+      
+      var formlar = (cfg.resultCount && (cfg.resultCount[cfg.lang] || cfg.resultCount.tr)) || { other: "{n}" };
+      durumEl.textContent = MxF.cogul(s.toplam, formlar, cfg.lang);
+      sayfalariCiz(s);
+      
+      var say = d.q ? 1 : 0;
+      for (var fa in d.facet) { if (Object.prototype.hasOwnProperty.call(d.facet, fa)) { say++; } }
+      if (rozet) { rozet.hidden = say === 0; rozet.textContent = String(say); }
+      dizi(qa("[data-ilan-reset]")).forEach(function (b) { if (!b.closest || !b.closest("[data-ilan-empty]")) { b.hidden = !f.filtreVar(); } });
+      
+      if (kullaniciSayfa && sonSayfa && s.sayfa !== sonSayfa) {
+        var azalt = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+        var ust = liste.getBoundingClientRect().top;
+        if (ust < 0 || ust > window.innerHeight) { durumEl.scrollIntoView({ behavior: azalt ? "auto" : "smooth", block: "start" }); }
+      }
+      kullaniciSayfa = false;
+      sonSayfa = s.sayfa;
+    }
+    f.abone(guncelle);
+    guncelle(f.sonuc());
+  }
+
+  hazir(function () {
+    if (window.MxFiltre) { basla(); }
+    else if (window.mxLoad) { window.mxLoad("mxfiltre").then(basla, function () {}); }
+  });
+})();
+</script>
+<section class="b0003-tline">
+  <div class="b0003-tline-container">
+    <div class="b0003-tline-header">
+      <div class="b0003-tline-badge">Süreç</div>
+      <h2 class="b0003-tline-title">Seçimden teslimata</h2>
+      <p class="b0003-tline-desc">Dört adımda araç alımı.</p>
+    </div>
+    <div class="b0003-tline-list">
+      <div class="b0003-tline-item" style="animation-delay:0s"><span class="b0003-tline-dot" aria-hidden="true"></span><div class="b0003-tline-year">01</div><h3 class="b0003-tline-item-title">Aracı seçin</h3><p class="b0003-tline-item-text">Filtrelerle uygun aracı bulun, ilan bilgilerini inceleyin.</p></div><div class="b0003-tline-item" style="animation-delay:0.1s"><span class="b0003-tline-dot" aria-hidden="true"></span><div class="b0003-tline-year">02</div><h3 class="b0003-tline-item-title">Ekspertiz ve test sürüşü</h3><p class="b0003-tline-item-text">Raporu inceleyin, aracı yerinde deneyin.</p></div><div class="b0003-tline-item" style="animation-delay:0.2s"><span class="b0003-tline-dot" aria-hidden="true"></span><div class="b0003-tline-year">03</div><h3 class="b0003-tline-item-title">Ödeme planı</h3><p class="b0003-tline-item-text">Peşin, takas ya da kredi seçeneklerini değerlendirin.</p></div><div class="b0003-tline-item" style="animation-delay:0.30000000000000004s"><span class="b0003-tline-dot" aria-hidden="true"></span><div class="b0003-tline-year">04</div><h3 class="b0003-tline-item-title">Noterde devir</h3><p class="b0003-tline-item-text">Satış resmî işlemle tamamlanır, araç teslim edilir.</p></div>
+    </div>
+  </div>
+</section>
+
+
+<section class="b0004-stats">
+  <div class="b0004-stats-container">
+    <div class="b0004-stats-item" style="animation-delay:0s"><div class="b0004-stats-icon"><span class="material-symbols-outlined" aria-hidden="true">directions_car</span></div><div class="b0004-stats-number" data-mx-count="8">0</div><div class="b0004-stats-label">Örnek araç</div></div><div class="b0004-stats-item" style="animation-delay:0.1s"><div class="b0004-stats-icon"><span class="material-symbols-outlined" aria-hidden="true">fact_check</span></div><div class="b0004-stats-number" data-mx-count="100">0<span class="b0004-stats-suffix">%</span></div><div class="b0004-stats-label">Ekspertiz raporlu</div></div><div class="b0004-stats-item" style="animation-delay:0.2s"><div class="b0004-stats-icon"><span class="material-symbols-outlined" aria-hidden="true">verified</span></div><div class="b0004-stats-number" data-mx-count="100">0<span class="b0004-stats-suffix">%</span></div><div class="b0004-stats-label">Yetki belgeli ilan</div></div><div class="b0004-stats-item" style="animation-delay:0.30000000000000004s"><div class="b0004-stats-icon"><span class="material-symbols-outlined" aria-hidden="true">calendar_month</span></div><div class="b0004-stats-number" data-mx-count="6">0</div><div class="b0004-stats-label">Gün açık (haftalık)</div></div>
+  </div>
+</section>
+
+
+
+<script>
+  
+  setTimeout(function () {
+    var reduced = false;
+    try {
+      reduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    } catch (e) {}
+    var numbers = document.querySelectorAll(".b0004-stats-number[data-mx-count]");
+    if (numbers.length === 0) {
+      return;
+    }
+
+    function animateCount(el) {
+      var target = parseInt(el.getAttribute("data-mx-count"), 10) || 0;
+      if (reduced || !("IntersectionObserver" in window)) {
+        el.firstChild.textContent = String(target);
+        return;
+      }
+      var duration = 1200;
+      var start = null;
+      function step(ts) {
+        if (start === null) {
+          start = ts;
+        }
+        var progress = Math.min(1, (ts - start) / duration);
+        
+        var eased = 1 - Math.pow(1 - progress, 3);
+        el.firstChild.textContent = String(Math.round(target * eased));
+        if (progress < 1) {
+          window.requestAnimationFrame(step);
+        }
+      }
+      window.requestAnimationFrame(step);
+    }
+
+    if (!("IntersectionObserver" in window) || reduced) {
+      for (var ni = 0; ni < numbers.length; ni++) {
+        animateCount(numbers[ni]);
+      }
+      return;
+    }
+    var observer = new IntersectionObserver(function (entries) {
+      for (var ei = 0; ei < entries.length; ei++) {
+        if (entries[ei].isIntersecting) {
+          animateCount(entries[ei].target);
+          observer.unobserve(entries[ei].target);
+        }
+      }
+    }, { threshold: 0.4 });
+    for (var oi = 0; oi < numbers.length; oi++) {
+      observer.observe(numbers[oi]);
+    }
+  }, 80);
+</script>
+<section class="b0005-cta">
+  <div class="b0005-cta-container">
+    <div class="b0005-cta-content">
+      <h2 class="b0005-cta-title">Aracınızı yerinde görün</h2>
+      <p class="b0005-cta-desc">Araçlar kurgusal örneklerdir; kilometre ve hasar durumu yalnızca ekspertiz raporuyla doğrulanır.</p>
+    </div>
+    <div class="b0005-cta-actions">
+      <a href="/tr/araclar/" class="b0005-cta-btn b0005-cta-btn-primary">
+        <span>Araçları gör</span>
+        <span class="material-symbols-outlined" aria-hidden="true">arrow_forward</span>
+      </a>
+      <a href="/tr/satis-kosullari/" class="b0005-cta-btn b0005-cta-btn-secondary">
+        <span>Satış koşulları</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+
+</div>
+  <div id="footer"><footer class="footer">
+  <div class="footer-top">
+    <div class="footer-logo">
+      <img src="/img/logo.png" height="60"   alt="Anadolu Oto Galeri Logo"  loading="lazy"/>
+    </div>
+    <ul class="menu">
+      <li class="f0000-menu__item"><a class="f0000-menu_link" href="/tr/">Anasayfa</a></li><li class="f0000-menu__item"><a class="f0000-menu_link" href="/tr/araclar/">Araçlar</a></li><li class="f0000-menu__item"><a class="f0000-menu_link" href="/tr/aracini-sat/">Aracını Sat</a></li><li class="f0000-menu__item"><a class="f0000-menu_link" href="/tr/kredi-takas/">Kredi ve Takas</a></li><li class="f0000-menu__item"><a class="f0000-menu_link" href="/tr/satis-kosullari/">Satış Koşulları</a></li><li class="f0000-menu__item"><a class="f0000-menu_link" href="/tr/galeri/">Galeri</a></li><li class="f0000-menu__item"><a class="f0000-menu_link" href="/tr/hakkimizda/">Hakkımızda</a></li><li class="f0000-menu__item"><a class="f0000-menu_link" href="/tr/iletisim/">İletişim</a></li>
+    </ul>
+  </div>
+  <div class="footer-bottom">
+    <nav class="wm-langbar" aria-label="Dil Seçici"><ul><li class="wm-lang-item wm-lang-active"><a href="/tr/" hreflang="tr" lang="tr" aria-current="true">TR</a></li><li class="wm-lang-item"><a href="/en/" hreflang="en" lang="en">EN</a></li><li class="wm-lang-item"><a href="/ar/" hreflang="ar" lang="ar">AR</a></li></ul></nav>
+    <p>&copy; Anadolu Oto Galeri 2026. Tüm hakları saklıdır.</p>
+  </div>
+</footer>
+
+<div class="f0001-dk" role="contentinfo" aria-label="Demo bilgisi">
+  <p class="f0001-dk-text">Bu demo <bdi class="f0001-dk-brand" dir="ltr">Webyapar</bdi> tarafından hazırlanmıştır — <a class="f0001-dk-cta" href="https://webyapar.com/temalar#otogaleri" target="_blank" rel="noopener noreferrer"><span>Bu temayı iste</span><span class="mx-visually-hidden"> (yeni sekmede açılır)</span><span class="material-symbols-outlined mx-flip f0001-dk-arrow" aria-hidden="true">arrow_forward</span></a></p>
+</div>
+
+</div>
+
+  
+
+  <script defer src="/src/swiper-bundle.min.js"></script>
+  <script defer src="/src/mx-ui.js?v=f084i"></script>
+  <script defer src="/src/mx-store.js?v=f084i"></script>
+  <script defer type="text/javascript" src="/src/js.js?v=f084i"></script>
+  <script defer src="/src/cookie.js?v=f084i"></script>
+
+</body>
+
+</html>

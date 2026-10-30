@@ -1,0 +1,47 @@
+{
+  "name": {
+    "tr": "Hakkımızda",
+    "en": "About",
+    "ar": "من نحن"
+  },
+  "status": "play",
+  "category": "",
+  "id": "hakkimizda",
+  "url": "",
+  "path": "hakkimizda",
+  "index": 5,
+  "icon": "info",
+  "desing": {
+    "header": [],
+    "body": [
+      "ndk85p",
+      "n63ei0"
+    ],
+    "footer": []
+  },
+  "pathnext": "",
+  "description": {
+    "tr": "Anadolu Oto Galeri, ikinci el araç satışında bilgi açıklığını ilke edinen kurgusal bir demo galeridir. Her araç için kilometre, hasar ve ekspertiz bilgisi paylaşılır; ilan bilgileri gerçeğe uygun olmak zorundadır.",
+    "en": "Anadolu Auto Gallery is a fictional demo dealership that makes information openness its principle in used-car sales. Mileage, damage and inspection details are shared for every car; listing details must be truthful.",
+    "ar": "معرض الأناضول للسيارات معرض تجريبي افتراضي يجعل وضوح المعلومات مبدأً في بيع السيارات المستعملة. تُشارَك بيانات المسافة والأضرار والفحص لكل سيارة، ويجب أن تكون بيانات الإعلان مطابقة للواقع."
+  },
+  "spot": {
+    "tr": "",
+    "en": "",
+    "ar": ""
+  },
+  "desc": {},
+  "title": {
+    "tr": "Hakkımızda",
+    "en": "About",
+    "ar": "من نحن"
+  },
+  "keyword": {
+    "tr": "hakkımızda",
+    "en": "about",
+    "ar": "من نحن"
+  },
+  "text": {},
+  "update": "2026-10-30T22:03:23.199Z",
+  "date": "2026-10-30"
+}

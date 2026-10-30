@@ -1,0 +1,41 @@
+{
+  "id": "i3mks9vxhf",
+  "name": {
+    "tr": "Kredi ve Takas",
+    "en": "Finance and Trade-in",
+    "ar": "التمويل والمقايضة"
+  },
+  "description": {
+    "tr": "Takas, kredi yönlendirme ve ekspertiz süreçleri; koşullar kişiye ve araca göre değişir.",
+    "en": "Trade-in, finance referral and inspection; terms vary by person and vehicle.",
+    "ar": "المقايضة والتوجيه للتمويل والفحص؛ وتختلف الشروط بحسب الشخص والسيارة."
+  },
+  "keyword": {
+    "tr": "ikinci el araç, oto galeri, ekspertiz",
+    "en": "used cars, auto gallery, inspection",
+    "ar": "سيارات مستعملة، معرض سيارات، فحص"
+  },
+  "path": "kredi-takas",
+  "icon": "payments",
+  "category": "",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "57v3df",
+      "na0sac",
+      "4harej"
+    ],
+    "footer": []
+  },
+  "index": 2,
+  "url": "",
+  "text": {},
+  "title": {
+    "tr": "Kredi ve Takas",
+    "en": "Finance and Trade-in",
+    "ar": "التمويل والمقايضة"
+  },
+  "date": "2026-10-30T21:54:09.287Z",
+  "update": "2026-10-30T22:03:23.178Z"
+}

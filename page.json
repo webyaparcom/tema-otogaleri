@@ -1,0 +1,188 @@
+{
+  "data": [
+    {
+      "id": "6qdlu28uwm",
+      "name": {
+        "tr": "Araçlar",
+        "en": "Vehicles",
+        "ar": "السيارات"
+      },
+      "description": {
+        "tr": "Satıştaki ikinci el araçlar; her ilanda yetki belgesi no ve ekspertiz bilgisi.",
+        "en": "Used vehicles for sale; each listing carries an authorisation number and inspection information.",
+        "ar": "سيارات مستعملة للبيع؛ يتضمن كل إعلان رقم التفويض ومعلومات الفحص."
+      },
+      "path": "araclar",
+      "icon": "directions_car",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "onll6d"
+        ],
+        "footer": []
+      },
+      "index": 0
+    },
+    {
+      "id": "z5h3pgh4s7",
+      "name": {
+        "tr": "Aracını Sat",
+        "en": "Sell Your Car",
+        "ar": "بع سيارتك"
+      },
+      "description": {
+        "tr": "Randevu gününde aracınız kontrol edilir ve değerleme bilgisi paylaşılır. Talebiniz demo olarak tarayıcınızda oluşturulur.",
+        "en": "On the appointment day your car is inspected and a valuation is shared. Your request is created in your browser as a demo.",
+        "ar": "في يوم الموعد تُفحص سيارتك ويُشارَك التقييم. يُنشأ طلبك كعرض تجريبي في متصفحك."
+      },
+      "path": "aracini-sat",
+      "icon": "sell",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "nwrsg0"
+        ],
+        "footer": []
+      },
+      "index": 1
+    },
+    {
+      "id": "i3mks9vxhf",
+      "name": {
+        "tr": "Kredi ve Takas",
+        "en": "Finance and Trade-in",
+        "ar": "التمويل والمقايضة"
+      },
+      "description": {
+        "tr": "Takas, kredi yönlendirme ve ekspertiz süreçleri; koşullar kişiye ve araca göre değişir.",
+        "en": "Trade-in, finance referral and inspection; terms vary by person and vehicle.",
+        "ar": "المقايضة والتوجيه للتمويل والفحص؛ وتختلف الشروط بحسب الشخص والسيارة."
+      },
+      "path": "kredi-takas",
+      "icon": "payments",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "57v3df",
+          "na0sac",
+          "4harej"
+        ],
+        "footer": []
+      },
+      "index": 2
+    },
+    {
+      "id": "pwjz4l52pc",
+      "name": {
+        "tr": "Satış Koşulları",
+        "en": "Terms of Sale",
+        "ar": "شروط البيع"
+      },
+      "description": {
+        "tr": "Satış, ekspertiz ve cayma hakkı bilgisi.",
+        "en": "Sale, inspection and withdrawal information.",
+        "ar": "معلومات البيع والفحص وحق العدول."
+      },
+      "path": "satis-kosullari",
+      "icon": "gavel",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "3at5l0"
+        ],
+        "footer": []
+      },
+      "index": 3
+    },
+    {
+      "id": "esa3hg5md7",
+      "name": {
+        "tr": "Galeri",
+        "en": "Gallery",
+        "ar": "المعرض"
+      },
+      "description": {
+        "tr": "Salon, ekspertiz alanı ve teslim noktasından görüntüler.",
+        "en": "Views of the showroom, the inspection bay and the handover point.",
+        "ar": "صور من الصالة ومنطقة الفحص ونقطة التسليم."
+      },
+      "path": "galeri",
+      "icon": "photo_library",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "tu4ufm"
+        ],
+        "footer": []
+      },
+      "index": 4
+    },
+    {
+      "name": {
+        "tr": "Hakkımızda",
+        "en": "About",
+        "ar": "من نحن"
+      },
+      "status": "play",
+      "id": "hakkimizda",
+      "path": "hakkimizda",
+      "category": "",
+      "url": "",
+      "index": 5,
+      "icon": "info",
+      "desing": {
+        "header": [],
+        "body": [
+          "ndk85p",
+          "n63ei0"
+        ],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "Anadolu Oto Galeri, ikinci el araç satışında bilgi açıklığını ilke edinen kurgusal bir demo galeridir. Her araç için kilometre, hasar ve ekspertiz bilgisi paylaşılır; ilan bilgileri gerçeğe uygun olmak zorundadır.",
+        "en": "Anadolu Auto Gallery is a fictional demo dealership that makes information openness its principle in used-car sales. Mileage, damage and inspection details are shared for every car; listing details must be truthful.",
+        "ar": "معرض الأناضول للسيارات معرض تجريبي افتراضي يجعل وضوح المعلومات مبدأً في بيع السيارات المستعملة. تُشارَك بيانات المسافة والأضرار والفحص لكل سيارة، ويجب أن تكون بيانات الإعلان مطابقة للواقع."
+      }
+    },
+    {
+      "name": {
+        "tr": "İletişim",
+        "en": "Contact",
+        "ar": "اتصل بنا"
+      },
+      "status": "play",
+      "id": "iletisim",
+      "path": "iletisim",
+      "category": "",
+      "url": "",
+      "index": 6,
+      "icon": "call",
+      "desing": {
+        "header": [],
+        "body": [
+          "k9ct01",
+          "k9mp01"
+        ],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "Adres, telefon, e-posta ve çalışma saatleri.",
+        "en": "Address, phone, e-mail and opening hours.",
+        "ar": "العنوان والهاتف والبريد الإلكتروني وساعات العمل."
+      }
+    }
+  ],
+  "desc": []
+}

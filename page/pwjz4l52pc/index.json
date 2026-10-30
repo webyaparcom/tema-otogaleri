@@ -1,0 +1,43 @@
+{
+  "id": "pwjz4l52pc",
+  "name": {
+    "tr": "Satış Koşulları",
+    "en": "Terms of Sale",
+    "ar": "شروط البيع"
+  },
+  "description": {
+    "tr": "Satış, ekspertiz ve cayma hakkı bilgisi.",
+    "en": "Sale, inspection and withdrawal information.",
+    "ar": "معلومات البيع والفحص وحق العدول."
+  },
+  "keyword": {
+    "tr": "satış koşulları",
+    "en": "terms of sale",
+    "ar": "شروط البيع"
+  },
+  "path": "satis-kosullari",
+  "icon": "gavel",
+  "category": "",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "3at5l0"
+    ],
+    "footer": []
+  },
+  "index": 3,
+  "url": "",
+  "text": {
+    "tr": "<h2>Satış koşulları</h2><p>Her araç için kilometre, hasar kaydı, tramer bilgisi ve ekspertiz raporu satıştan önce alıcıyla paylaşılır; beyan edilen bilgiler rapordaki bilgilerle birebir aynıdır. Satış işlemi, noter ya da yetkili işlem noktasında yapılır; mesafeli sözleşmede cayma hakkı ikinci el araçlar için uygulanmaz.</p><p>Galerimiz «Anadolu Otomotiv Ticaret Ltd. Şti.» unvanıyla çalışır; yetki belgesi numarası her ilanda yazılıdır (demo: DEMO-27-xxxx).</p><p><em>Demo sitedir; koşullar örnektir.</em></p>",
+    "en": "<h2>Terms of sale</h2><p>For every vehicle, mileage, damage record, history report and inspection report are shared with the buyer before the sale, and the declared details match the report exactly. The sale is concluded at a notary or an authorised transaction point; the right of withdrawal in distance contracts does not apply to second-hand vehicles.</p><p>Our gallery trades as Anadolu Automotive Trading Ltd.; the authorisation number appears on every listing (demo: DEMO-27-xxxx).</p><p><em>This is a demo site; the terms are examples.</em></p>",
+    "ar": "<h2>شروط البيع</h2><p>تُشارَك مع المشتري قبل البيع بيانات المسافة المقطوعة وسجل الأضرار والتقرير التاريخي وتقرير الفحص لكل سيارة، وتطابق البيانات المعلنة ما في التقرير تمامًا. يتم البيع لدى كاتب العدل أو في نقطة معاملات مخوّلة؛ ولا ينطبق حق العدول في العقود عن بُعد على السيارات المستعملة.</p><p>يعمل معرضنا باسم شركة الأناضول لتجارة السيارات، ويُذكر رقم شهادة التفويض في كل إعلان (تجريبي: DEMO-27-xxxx).</p><p><em>هذا موقع تجريبي والشروط أمثلة.</em></p>"
+  },
+  "title": {
+    "tr": "Satış Koşulları",
+    "en": "Terms of Sale",
+    "ar": "شروط البيع"
+  },
+  "date": "2026-10-30T21:54:09.297Z",
+  "update": "2026-10-30T22:03:23.185Z"
+}

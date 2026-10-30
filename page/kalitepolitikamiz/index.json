@@ -1,0 +1,41 @@
+{
+  "id": "kalitepolitikamiz",
+  "name": {
+    "tr": "Kalite Politikamız",
+    "en": "Quality Policy",
+    "ar": "سياسة الجودة"
+  },
+  "description": {
+    "tr": "Kalite politikamız",
+    "en": "Our quality policy",
+    "ar": "سياسة الجودة لدينا"
+  },
+  "keyword": {
+    "tr": "",
+    "en": "",
+    "ar": ""
+  },
+  "path": "kalitepolitikamiz",
+  "icon": "verified",
+  "category": "",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+  },
+  "index": 2,
+  "url": "",
+  "text": {
+    "tr": "<h2>Kalite Politikamız</h2>\n<p>Ekspertiz raporu, doğru km ve hasar beyanı, belge kontrolü ve satış sonrası bilgilendirme kalite anlayışımızın temelidir.</p>",
+    "en": "<h2>Our quality policy</h2>\n<p>Inspection reports, truthful mileage and damage declarations, paperwork checks and after-sale information are the basis of our quality approach.</p>",
+    "ar": "<h2>سياسة الجودة لدينا</h2>\n<p>تقارير الفحص وصحة بيانات المسافة والأضرار وفحص الوثائق والإبلاغ بعد البيع هي أساس نهجنا في الجودة.</p>"
+  },
+  "title": {
+    "tr": "Kalite Politikamız",
+    "en": "Quality Policy",
+    "ar": "سياسة الجودة"
+  },
+  "date": "2026-10-30T21:54:08.879Z",
+  "update": "2026-10-30T22:03:23.226Z"
+}
