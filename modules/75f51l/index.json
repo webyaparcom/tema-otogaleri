@@ -85,5 +85,10 @@
       { "id": "ilan-008", "title": { "tr": "Merkezi konumda 1+1 rezidans", "en": "1+1 residence in a central location", "ar": "وحدة 1+1 في مجمّع سكني بموقع مركزي" }, "deal": "sale", "type": "rezidans", "rooms": "1+1", "m2": 70, "price": 5300000, "currency": "TRY", "city": { "tr": "İstanbul", "en": "Istanbul", "ar": "إسطنبول" }, "district": { "tr": "Beşiktaş", "en": "Besiktas", "ar": "بشيكتاش" }, "img": [], "permitNo": "DEMO-34-0008", "url": "", "date": "2026-10-02" }
     ]
   },
-  "tags": ["emlak", "ilan", "filtre", "real-estate", "listing", "rtl"]
+  "tags": ["emlak", "ilan", "filtre", "real-estate", "listing", "rtl"],
+  "veri": {
+    "statik": true,
+    "dinamik": false,
+    "kaynak": "desing/data"
+  }
 }
